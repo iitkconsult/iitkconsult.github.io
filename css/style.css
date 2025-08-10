@@ -858,6 +858,15 @@ a .lucide.lucide-arrow-right {
     box-shadow: 0 0 45px rgba(0, 0, 0, .2);
 }
 
+.team-item img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.team-item:hover img {
+    filter: grayscale(0%);
+}
+
 
 /*** Testimonial ***/
 .testimonial-img {
